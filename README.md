@@ -1,13 +1,16 @@
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+local Version = "1.6.41"
+local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/download/" .. Version .. "/main.lua"))()
 
-local Window = Fluent:CreateWindow({
-    Title = "Catholic Hub | Evade" .. Fluent.Version,
-    SubTitle = "by Denolk // Verion 1.1",
-    TabWidth = 160,
-    Size = UDim2.fromOffset(580, 460),
-    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Dark",
-    MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
+local Window = WindUI:CreateWindow({
+    Title = "Catholic Hub|Evade",
+    Icon = "door-open", -- lucide icon. optional
+    Author = "by Denolk", -- optional
+})
+--------------------------------------
+---//TAB CREDITS
+--------------------------------------
+local Tab = Window:Tab({
+    Title = "Credits",
+    Icon = "List", -- optional
+    Locked = false,
 })
