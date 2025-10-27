@@ -10,6 +10,6 @@ local Window = WindUI:CreateWindow({
 --------------------------------------
 local Tab = Window:Tab({
     Title = "Credits",
-    Icon = "List", -- optional
+    Icon = "rbxassetid://123028503879620", -- optional
     Locked = false,
 })
