@@ -2,7 +2,7 @@ local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/rel
 
 local Window = WindUI:CreateWindow({
     Title = "Catholic Hub|Evade",
-    Icon = "door-open", -- lucide icon. optional
+    Icon = "rbxassetid://123028503879620", -- lucide icon. optional
     Author = "by Denolk", -- optional
 })
 --------------------------------------
